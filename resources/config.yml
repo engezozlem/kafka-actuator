@@ -1,0 +1,13 @@
+dev:
+  kafka:
+    clientDetails:
+      servers: "add your config here"
+      consumerGroup: "add your config here"
+      rootCAPath: "add your config here"
+      intermediateCAPath: "add your config here"
+      rack: "add your config here"
+      scramUsername: "add your config here"
+      scramPassword: "add your config here"
+      isSecureCluster: false
+    topics:
+      testTopic: "add your config here"
